@@ -1,12 +1,18 @@
 using Microsoft.AspNetCore.Authentication.Cookies;
 using Microsoft.EntityFrameworkCore;
+using PruebaExamen.Data;
 using PruebaExamen.Helpers;
+using PruebaExamen.Repositories;
 
 var builder = WebApplication.CreateBuilder(args);
 
 string connectionString = builder.Configuration.GetConnectionString("SqlZapatillas");
 builder.Services.AddSingleton<PathProvider>();
-builder.Services.AddDbContext<DbContext>(options => options.UseSqlServer(connectionString));
+builder.Services.AddTransient<RepositoryArticulos>();
+builder.Services.AddTransient<RepositoryPedidos>();
+builder.Services.AddTransient<RepositoryUsuarios>();
+
+builder.Services.AddDbContext<AppDbContext>(options => options.UseSqlServer(connectionString));
 
 
 //SEGURIDAD
@@ -52,7 +58,7 @@ app.UseMvc(route =>
 {
 	route.MapRoute(
 		name: "default",
-		template: "{controller=Tienda}/{action=Index}/{id?}");
+		template: "{controller=Home}/{action=Index}/{id?}");
 });
 
 app.Run();
