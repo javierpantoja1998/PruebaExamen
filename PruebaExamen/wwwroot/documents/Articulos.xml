@@ -1,0 +1,122 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<articulos>
+
+	    <articulo idarticulo="1">
+
+		        <nombre>Curry</nombre>
+
+		        <descripcion>Plato qeu bla bla</descripcion>
+
+		        <calorias>100</calorias>
+
+		        <proteinas>50</proteinas>
+
+		        <hidratros>200</hidratros>
+
+		        <glucosa>25</glucosa>
+
+		        <cantidad>0</cantidad>
+
+		   
+	</articulo>
+
+	    <articulo idarticulo="2">
+
+		        <nombre>Patatas bravas</nombre>
+
+		        <descripcion>Plato espania</descripcion>
+
+		        <calorias>150</calorias>
+
+		        <proteinas>20</proteinas>
+
+		        <hidratros>100</hidratros>
+
+		        <glucosa>55</glucosa>
+
+		        <cantidad>0</cantidad>
+
+		   
+	</articulo>
+
+	    <articulo idarticulo="3">
+
+		        <nombre>Baguette</nombre>
+
+		        <descripcion>Plato frances</descripcion>
+
+		        <calorias>20</calorias>
+
+		        <proteinas>10</proteinas>
+
+		        <hidratros>400</hidratros>
+
+		        <glucosa>15</glucosa>
+
+		        <cantidad>0</cantidad>
+
+
+		   
+	</articulo>
+
+	    <articulo idarticulo="4">
+
+		        <nombre>Spaguiettis</nombre>
+
+		        <descripcion>Plato italiano</descripcion>
+
+		        <calorias>1000</calorias>
+
+		        <proteinas>6</proteinas>
+
+		        <hidratros>780</hidratros>
+
+		        <glucosa>90</glucosa>
+
+		        <cantidad>0</cantidad>
+
+
+		   
+	</articulo>
+
+	    <articulo idarticulo="5">
+
+		        <nombre>salchcichas</nombre>
+
+		        <descripcion>Plato aleman</descripcion>
+
+		        <calorias>40</calorias>
+
+		        <proteinas>300</proteinas>
+
+		        <hidratros>2000</hidratros>
+
+		        <glucosa>88</glucosa>
+
+		        <cantidad>0</cantidad>
+
+
+		   
+	</articulo>
+
+	    <articulo idarticulo="6">
+
+		        <nombre>Cocido</nombre>
+
+		        <descripcion>Plato cocido madrid</descripcion>
+
+		        <calorias>100</calorias>
+
+		        <proteinas>50</proteinas>
+
+		        <hidratros>200</hidratros>
+
+		        <glucosa>25</glucosa>
+
+		        <cantidad>0</cantidad>
+
+
+		   
+	</articulo>
+
+</articulos>
