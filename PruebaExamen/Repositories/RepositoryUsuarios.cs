@@ -19,6 +19,6 @@ namespace PruebaExamen.Repositories
 			return this.context.Usuarios.Where(x => x.Nombre == nombre && x.Contrasenha == contrasenha).AsEnumerable().FirstOrDefault();
 		}
 
-
+		
 	}
 }
